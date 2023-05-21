@@ -10,6 +10,10 @@
   justify-content: space-between;  
 }
 
+.nav-item{
+  font-size: 20px;
+}
+
 /* Estilos generales */
 
 section {
@@ -19,8 +23,10 @@ section {
   justify-content: center;
 }
 
+
+
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: 'Rubik Dirt', cursive;
   color:  #be93d2;
 }
@@ -37,28 +43,40 @@ h1 {
 }
 
 .seccion-titulo {
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
 }
 
 
 .seccion-descripcion {
-  font-size: 1.2rem;
-  color: #584e4e;
+  font-size: 1.4rem;
+  color: #161316;
 }
 
 .seccion-texto {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .btn-info {
+  font-size: 1.2rem;
+  margin: 20px;
+  background-color: #be7fb0;;
+  color: white;
+  border: 1px solid #47324f;
+}
+
+.btn-info:hover{
   font-size: 1.1rem;
   margin: 20px;
+  background-color: #603c73;
+  color: white;
+  border: 2px solid #47324f;
 }
 
 .texto-negro {
-  color: black;
+  color:#be93d2;
+  font-size: 3rem;
 }
 
 .texto-blanco {
@@ -79,11 +97,15 @@ h1 {
 
 .hero-imagen-desarrollador {
   
-  width: 275px;
+  width: 280px;
   height: 355px;
-  margin: 50px;
+  margin: 20px;
  
   
+}
+ul li{
+ 
+  text-align: justify;
 }
 
 .hero-principal h2 {
@@ -96,13 +118,14 @@ h1 {
 
 
 .sobre-mi {
-  height: 500px;
-  padding: 10px;
+  height: auto;
+  padding: 15px;
 }
 
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
+  
 }
 
 /* Experiencia */
@@ -372,8 +395,8 @@ footer {
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: #f8caed;
+  border: 2px solid white;
 }
 
 .iconos-redes-sociales a:hover i {
